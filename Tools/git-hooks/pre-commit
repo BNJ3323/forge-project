@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# Hook pre-commit du projet Forge.
+# 1) Verifie (sans Unity) que chaque asset ajoute a son fichier .meta.
+# 2) Si UNITY_PATH est defini, lance la validation du contenu en mode batch.
+#    Bloque le commit s'il reste des erreurs. Contournement exceptionnel : git commit --no-verify
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT" || exit 1
+
+fail=0
+
+# --- 1. Fichiers .meta ---------------------------------------------------
+for file in $(git diff --cached --name-only --diff-filter=A); do
+  case "$file" in
+    Assets/*.meta) continue ;;
+    Assets/*)
+      if ! git ls-files --cached --error-unmatch "$file.meta" >/dev/null 2>&1; then
+        echo "[pre-commit] .meta manquant pour : $file"
+        fail=1
+      fi
+      ;;
+  esac
+done
+
+# --- 2. Validation du contenu --------------------------------------------
+if git diff --cached --name-only | grep -qE '^Assets/_Game/(Content|Art|Prefabs)/'; then
+  if [ -n "${UNITY_PATH:-}" ] && [ -x "$UNITY_PATH" ]; then
+    echo "[pre-commit] Validation du contenu avec Unity..."
+    if ! "$ROOT/Tools/validate.sh"; then
+      echo "[pre-commit] Des erreurs de contenu bloquent le commit. Voir Reports/validation.md"
+      fail=1
+    fi
+  else
+    echo "[pre-commit] UNITY_PATH non defini : validation du contenu ignoree."
+  fi
+fi
+
+if [ "$fail" -ne 0 ]; then
+  echo "[pre-commit] Commit refuse."
+  exit 1
+fi
+exit 0
