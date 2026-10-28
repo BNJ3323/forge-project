@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66defc056ca61934e97e238456578683, type: 3}
+  m_Name: Loot_Boss
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.LootTableData
+  entries:
+  - item: {fileID: 11400000, guid: 49be6ad1bf6dda043ac32b3426eca999, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 799e6b49bf9330d4396807a3e3f38654, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 4f096f57e9dbe964b93168911d229d36, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 92cbbb55f07fa3e459dd103114a67959, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 1c153642a733fac4a80783b1fda3050e, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 70859033e8982594e951b2413d40cd70, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: c96531fe2277dd2418e71f9677442cb6, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: 68a31ebd33d3b2f41b0dbaf283c1fefe, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: 742beb47047f3a24eba9c175c96e7229, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 331a5268edd805345a08d8c2bbd6c420, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: 02f8088681ddd624dbb8ad8465d57840, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 1303fe0d36e26654789222dd1995a0f3, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 8eb6e92ccee464b4c94cf3bdeca6be01, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: b2131b9fd9993674c9a7485642e58add, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 164cf494f438a214089effccf3f8de8e, type: 2}
+    weight: 20
+  minFloor: 1
+  maxFloor: 3
+  condition: boss

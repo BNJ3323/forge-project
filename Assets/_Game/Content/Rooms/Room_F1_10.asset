@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1febb198259f743ac563cbf8a18816, type: 3}
+  m_Name: Room_F1_10
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.RoomData
+  floor: 1
+  indexInFloor: 10
+  size: {x: 16, y: 10}
+  doors: 12
+  links:
+  - direction: 2
+    target: {fileID: 11400000, guid: 6d0a4703db2ef0c40a1ed9a794b307a2, type: 2}
+  - direction: 3
+    target: {fileID: 11400000, guid: 2fb61309a30a48b4ebd6c021f0a88f75, type: 2}
+  enemies:
+  - enemy: {fileID: 11400000, guid: 400da1399eab5294da1bd93d46c518c7, type: 2}
+    cell: {x: 8, y: 5}
+  chests: []
+  difficulty: 5
+  tags:
+  - boss

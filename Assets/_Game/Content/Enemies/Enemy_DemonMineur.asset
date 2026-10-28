@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4466d75d50193d48883bb6f5219f7da, type: 3}
+  m_Name: Enemy_DemonMineur
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.EnemyData
+  displayName: "D\xE9mon mineur"
+  prefab: {fileID: 0}
+  isBoss: 0
+  behavior: 2
+  baseHealth: 50
+  baseDamage: 12
+  baseSpeed: 3
+  floorScalingPercent: 40
+  firstFloor: 3
+  lastFloor: 3
+  lootTable: {fileID: 11400000, guid: f82d51bd501517549bf94ad925ad76d3, type: 2}

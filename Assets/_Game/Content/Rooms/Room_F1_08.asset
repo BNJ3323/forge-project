@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1febb198259f743ac563cbf8a18816, type: 3}
+  m_Name: Room_F1_08
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.RoomData
+  floor: 1
+  indexInFloor: 8
+  size: {x: 12, y: 8}
+  doors: 14
+  links:
+  - direction: 1
+    target: {fileID: 11400000, guid: 2fb61309a30a48b4ebd6c021f0a88f75, type: 2}
+  - direction: 2
+    target: {fileID: 11400000, guid: 25dfd0c50b8519c4fac4ce6b4621da49, type: 2}
+  - direction: 3
+    target: {fileID: 11400000, guid: de69620bda138904892227bc56d7c6b8, type: 2}
+  enemies:
+  - enemy: {fileID: 11400000, guid: 41544fa507b3ba44a9d1b54a218cea7c, type: 2}
+    cell: {x: 10, y: 5}
+  - enemy: {fileID: 11400000, guid: 7ae197db6bad1a44782484a65f373bef, type: 2}
+    cell: {x: 7, y: 3}
+  - enemy: {fileID: 11400000, guid: fd24285c23bf922469b58fbc9e289b3d, type: 2}
+    cell: {x: 2, y: 6}
+  - enemy: {fileID: 11400000, guid: b63e763f5a55b3242b8b465d620492fb, type: 2}
+    cell: {x: 5, y: 6}
+  chests: []
+  difficulty: 3
+  tags: []

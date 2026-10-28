@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66defc056ca61934e97e238456578683, type: 3}
+  m_Name: Loot_Principal
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.LootTableData
+  entries:
+  - item: {fileID: 11400000, guid: 49be6ad1bf6dda043ac32b3426eca999, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 42ae270b6904a4443a3e4d9925d1767b, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 8af57f1411e92ed419968e9fa080d8cc, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: b61dc9fb9c5454842bcfd51bd21e2219, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 799e6b49bf9330d4396807a3e3f38654, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 939160acd71de8442bcddb84179d0db9, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: e36bc19aab076034fa6d741295d275c1, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 4f096f57e9dbe964b93168911d229d36, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 2baf913c75123814d81bb07c99750053, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 1d11d07a48640c84aa9ba381576df6ec, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 4682973fd994e244b888f52ceed60307, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 9263323772b72cc409c8c6fa5f74a0ae, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 92cbbb55f07fa3e459dd103114a67959, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 7bca8fd00bdd2ab409e39dd426ff195c, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 94f50b9e296d261408bbb2cf6c2dce63, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 9165aac4f77f4d444a67ccafe1cbb843, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 1c153642a733fac4a80783b1fda3050e, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 9ba7849a32ed37446b50e38adb3f4eda, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 70859033e8982594e951b2413d40cd70, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 3687a53f68af6a747abee9ba148d4256, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: c96531fe2277dd2418e71f9677442cb6, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: 68a31ebd33d3b2f41b0dbaf283c1fefe, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: 5eb1750c95a3dc3499148b5efa155802, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 742beb47047f3a24eba9c175c96e7229, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 331a5268edd805345a08d8c2bbd6c420, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: 02f8088681ddd624dbb8ad8465d57840, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: f556a6ded8c0ef742b317ba749a76399, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: a2ad8aa60de776e46b75f11a2609b156, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 1303fe0d36e26654789222dd1995a0f3, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: fb2b5ad8d07a5a04596c5aabea7bf4a4, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: afe3486ad151fd34f896f35b1c115ec7, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 8eb6e92ccee464b4c94cf3bdeca6be01, type: 2}
+    weight: 8
+  - item: {fileID: 11400000, guid: b2131b9fd9993674c9a7485642e58add, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 6559b2d708edeac4fa2ad69580cd53ef, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: d96e1b0e0f699d94ea8db66e67f4b4c3, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 5b0f2c08e37128f46a07444063f03c19, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 8548d8a46b59ba648b5b80a1c336038f, type: 2}
+    weight: 50
+  - item: {fileID: 11400000, guid: 164cf494f438a214089effccf3f8de8e, type: 2}
+    weight: 20
+  - item: {fileID: 11400000, guid: 5b491d9f22fa92b4289017212ddbdf9e, type: 2}
+    weight: 100
+  - item: {fileID: 11400000, guid: 97fe041a29026524684446501c5dc63c, type: 2}
+    weight: 100
+  minFloor: 1
+  maxFloor: 3
+  condition: 

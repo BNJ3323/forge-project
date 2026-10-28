@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4466d75d50193d48883bb6f5219f7da, type: 3}
+  m_Name: Boss_SeigneurLiche
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.EnemyData
+  displayName: Seigneur liche
+  prefab: {fileID: 0}
+  isBoss: 1
+  behavior: 3
+  baseHealth: 260
+  baseDamage: 12
+  baseSpeed: 2
+  floorScalingPercent: 0
+  firstFloor: 2
+  lastFloor: 2
+  lootTable: {fileID: 11400000, guid: f6b15bab9f3732946bb0a70c54a5ba11, type: 2}

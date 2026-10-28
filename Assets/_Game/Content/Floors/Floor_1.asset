@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027d489c2f2b7fd4da6ca9192f3059b6, type: 3}
+  m_Name: Floor_1
+  m_EditorClassIdentifier: Forge.Runtime::Forge.Runtime.FloorData
+  floorNumber: 1
+  entrance: {fileID: 11400000, guid: d8764f3c43ce3d8438cefe038db9a8af, type: 2}
+  rooms:
+  - {fileID: 11400000, guid: d8764f3c43ce3d8438cefe038db9a8af, type: 2}
+  - {fileID: 11400000, guid: b17b696a073550c4e8ea125adbeba2d3, type: 2}
+  - {fileID: 11400000, guid: 25dfd0c50b8519c4fac4ce6b4621da49, type: 2}
+  - {fileID: 11400000, guid: 5125c4ee940eff741a6bf54b85cf92ac, type: 2}
+  - {fileID: 11400000, guid: 6d0a4703db2ef0c40a1ed9a794b307a2, type: 2}
+  - {fileID: 11400000, guid: 298966c7583b86e42858fd273df3c3ce, type: 2}
+  - {fileID: 11400000, guid: de69620bda138904892227bc56d7c6b8, type: 2}
+  - {fileID: 11400000, guid: 3f98f82a25cece045a2a43a4dffb08ca, type: 2}
+  - {fileID: 11400000, guid: 2fb61309a30a48b4ebd6c021f0a88f75, type: 2}
+  - {fileID: 11400000, guid: cdbec16a73b49af4c89e65553b66ed06, type: 2}
