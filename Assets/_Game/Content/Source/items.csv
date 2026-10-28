@@ -1,0 +1,41 @@
+name;rarity;type;price;health;damage;defense;effects;description
+Épée rouillée;Common;Weapon;10;0;3;0;;Une vieille lame qui a connu de meilleurs jours.
+Dague d'écuyer;Common;Weapon;14;0;4;0;;Légère et rapide.
+Bâton noueux;Common;Weapon;12;0;3;0;;Un bâton de marche renforcé.
+Arc court;Common;Weapon;18;0;4;0;Tir à distance;Portée limitée mais maniable.
+Casque en cuir;Common;Armor;12;5;0;1;;Protège un peu la tête.
+Plastron en cuir;Common;Armor;20;10;0;2;;Cuir bouilli, solide pour un débutant.
+Bottes usées;Common;Armor;9;3;0;1;;Elles tiennent encore.
+Anneau de cuivre;Common;Accessory;15;4;1;0;;Un simple anneau.
+Potion de soin mineure;Common;Consumable;8;20;0;0;Soigne 20 PV;Un goût de fraise.
+Pain dur;Common;Consumable;4;10;0;0;Soigne 10 PV;Mieux que rien.
+Clé rouillée;Common;Key;0;0;0;0;Ouvre une porte verrouillée;Grince dans la serrure.
+Gourdin clouté;Common;Weapon;13;0;4;0;;Un gourdin hérissé de clous.
+Torche;Common;Accessory;6;0;0;0;Éclaire les salles sombres;Brûle longtemps.
+Bombe fumigène;Common;Consumable;11;0;0;0;Aveugle les ennemis proches;Pratique pour fuir.
+Épée en fer;Uncommon;Weapon;40;0;7;0;;Équilibrée et fiable.
+Hache de bûcheron;Uncommon;Weapon;48;0;9;0;Frappe lente;Lourde mais dévastatrice.
+Arc long;Uncommon;Weapon;55;0;8;0;Tir à distance;Une grande portée.
+Bouclier en bois;Uncommon;Armor;35;8;0;4;;Renforcé de bandes de fer.
+Cotte de mailles;Uncommon;Armor;60;20;0;5;;Lourde mais efficace.
+Casque de garde;Uncommon;Armor;42;10;0;3;;Fournit par la milice du donjon.
+Amulette de vigueur;Uncommon;Accessory;50;25;0;0;;Donne un second souffle.
+Anneau de force;Uncommon;Accessory;52;0;3;1;;Fait tourner la tête des guerriers.
+Bottes renforcées;Uncommon;Armor;38;12;0;3;;Semelles ferrées pour les sols piégés.
+Potion de soin;Uncommon;Consumable;25;50;0;0;Soigne 50 PV;Le remède classique.
+Parchemin de feu;Uncommon;Consumable;30;0;15;0;Boule de feu;À usage unique.
+Épée runique;Rare;Weapon;120;0;14;0;Dégâts de feu;Les runes luisent faiblement.
+Lance du veilleur;Rare;Weapon;130;0;13;2;Allonge accrue;Longue portée au corps à corps.
+Arbalète lourde;Rare;Weapon;140;0;16;0;Perce l'armure;Lente à recharger.
+Armure de plates;Rare;Armor;150;40;0;10;;Un rempart ambulant.
+Bouclier du garde;Rare;Armor;110;15;0;8;Réduit les dégâts de face;Frappé du blason du donjon.
+Amulette de l'ombre;Rare;Accessory;125;10;4;2;Discrétion accrue;Froide au toucher.
+Potion de soin majeure;Rare;Consumable;80;120;0;0;Soigne 120 PV;Un liquide rouge profond.
+Clé du maître;Rare;Key;0;0;0;0;Ouvre toutes les portes de l'étage;Ornée et lourde.
+Lame des tempêtes;Epic;Weapon;300;0;24;0;Foudre en chaîne;Crépite d'énergie.
+Cuirasse draconique;Epic;Armor;320;70;0;16;Résiste au feu;Forgée dans des écailles.
+Couronne du roi déchu;Epic;Accessory;350;40;8;6;Aura de commandement;Lourde de souvenirs.
+Élixir de vie;Epic;Consumable;200;300;0;0;Soigne 300 PV;Rare et précieux.
+Épée du fondateur;Legendary;Weapon;800;20;40;5;Ignore la défense;La première lame forgée dans le donjon.
+Égide éternelle;Legendary;Armor;850;120;0;28;Renvoie 10 % des dégâts;On dit qu'elle ne brise jamais.
+Coeur du donjon;Legendary;Accessory;900;100;20;10;Régénération continue;Il bat encore.

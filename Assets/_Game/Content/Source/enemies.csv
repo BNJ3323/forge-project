@@ -1,0 +1,16 @@
+name;boss;behavior;health;damage;speed;scaling;firstfloor;lastfloor;loot
+Rat géant;0;Melee;12;2;3,0;40;1;1;Loot_Floor1
+Squelette;0;Melee;20;3;2,0;40;1;2;Loot_Floor1
+Gobelin;0;Melee;18;4;2,5;40;1;2;Loot_Floor1
+Archer squelette;0;Ranged;14;3;1,5;40;1;2;Loot_Floor1
+Chauve-souris;0;Charger;10;2;4,0;40;1;2;Loot_Floor1
+Gelée verte;0;Melee;30;3;1,0;40;2;3;Loot_Floor2
+Spectre;0;Ranged;24;5;2,0;40;2;3;Loot_Floor2
+Orc;0;Melee;40;7;1,8;40;2;3;Loot_Floor2
+Mage corrompu;0;Ranged;26;8;1,5;40;2;3;Loot_Floor2
+Golem de pierre;0;Melee;70;10;1,0;40;3;3;Loot_Floor3
+Démon mineur;0;Charger;50;12;3,0;40;3;3;Loot_Floor3
+Garde maudit;0;Melee;60;11;2,0;40;3;3;Loot_Floor3
+Roi des rats;1;Boss;120;6;2,0;0;1;1;Loot_Boss
+Seigneur liche;1;Boss;260;12;2,0;0;2;2;Loot_Boss
+Gardien du donjon;1;Boss;500;22;2,2;0;3;3;Loot_Boss

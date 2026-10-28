@@ -1,0 +1,18 @@
+npc;node;speaker;text;choice;next;condition;consequence
+Marchand;start;Marchand;Psst, voyageur ! Besoin de provisions avant de descendre ?;Que vendez-vous ?;shop;;
+Marchand;start;Marchand;Psst, voyageur ! Besoin de provisions avant de descendre ?;Des rumeurs sur le donjon ?;rumor;;
+Marchand;start;Marchand;Psst, voyageur ! Besoin de provisions avant de descendre ?;Non merci.;bye;;
+Marchand;shop;Marchand;Potions, pain, torches… Tout ce qu'il faut pour survivre.;Acheter une potion;thanks;gold>=8;give:Item_PotionDeSoinMineure
+Marchand;shop;Marchand;Potions, pain, torches… Tout ce qu'il faut pour survivre.;Retour;start;;
+Marchand;rumor;Marchand;On dit qu'un roi des rats règne au premier étage. Méfiez-vous.;Merci du conseil.;bye;;
+Marchand;thanks;Marchand;Bonne affaire ! Revenez me voir.;;;;
+Marchand;bye;Marchand;Que la chance vous accompagne.;;;;
+Vieil homme;start;Vieil homme;Je garde cette porte depuis des années. Elle ne s'ouvre qu'avec la bonne clé.;Je cherche la clé.;key;;
+Vieil homme;start;Vieil homme;Je garde cette porte depuis des années. Elle ne s'ouvre qu'avec la bonne clé.;J'ai la clé du maître.;open;has:Item_CleDuMaitre;flag:door_open
+Vieil homme;key;Vieil homme;Un boss la porte sur lui, je crois. Bonne chance.;Merci.;bye;;
+Vieil homme;open;Vieil homme;Ah ! Passez, passez, brave aventurier.;;;;
+Vieil homme;bye;Vieil homme;Prenez garde.;;;;
+Forgeron;start;Forgeron;Une lame abîmée ? Je peux faire des miracles.;Améliorer mon arme;upgrade;gold>=50;spend:50
+Forgeron;start;Forgeron;Une lame abîmée ? Je peux faire des miracles.;Juste de passage.;bye;;
+Forgeron;upgrade;Forgeron;Voilà, comme neuve. Elle frappera plus fort.;;;;
+Forgeron;bye;Forgeron;À bientôt.;;;;

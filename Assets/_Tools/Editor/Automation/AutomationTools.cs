@@ -35,7 +35,8 @@ namespace Forge.EditorTools
                 .Select(AssetDatabase.GUIDToAssetPath)
                 .Select(p => new { path = p, sprite = AssetDatabase.LoadAssetAtPath<Sprite>(p) })
                 .Where(x => x.sprite != null)
-                .ToDictionary(x => Path.GetFileNameWithoutExtension(x.path).ToLowerInvariant(), x => x.sprite);
+                .GroupBy(x => Path.GetFileNameWithoutExtension(x.path).ToLowerInvariant())
+                .ToDictionary(g => g.Key, g => g.First().sprite);
 
             int linked = 0, missing = 0;
             foreach (var item in ForgeAssets.FindAll<ItemData>())
